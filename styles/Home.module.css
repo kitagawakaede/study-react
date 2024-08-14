@@ -1,0 +1,49 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* styles/Home.module.css */
+
+.footer {
+    display: flex;
+    align-items: center; /* 縦方向に中央揃え */
+    justify-content: center; /* 横方向に中央揃え（任意で変更可能） */
+    gap: 10px; /* 要素間の間隔 */
+  }
+  
+
+  /* styles/Home.module.css */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .card {
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .card:hover {
+    border-color: #e0e0e0;
+    background-color: #000000;
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px;
+  }
+  
